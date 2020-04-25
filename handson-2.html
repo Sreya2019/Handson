@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.m{
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: Black;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: white;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="topnav">
+  <a href="#home" class="active">hTrack</a>
+  <div id="myLinks">
+    <a href="#Home"><i class="fa fa-fw fa-home"></i>Home</a>
+   <a href="#Products"><i class="fa fa-tags"></i>Products<span class="badge">4.4</span></a>
+    <a href="#Goals"><i class="fa fa-line-chart"></i>Goals</a>
+    <a href="#Events"><i class="fa fa-calendar"></i>Events
+<ul class="list-group">
+    <li class="list-group-item" style="color:blue;"><i class="fa fa-calendar"style="color:black;"></i>SEP 17,TUESDAY</br>
+    Annual Hackathon</li>
+    <li class="list-group-item" style="color:blue;"><i class="fa fa-calendar"style="color:black;"></i>SEP 17,WEDNESDAY</br>Seminar on Big Data</li>
+    <li class="list-group-item" style="color:blue;"><i class="fa fa-calendar"style="color:black;"></i>AUG 26,MONDAY</br>Workshop on Agile Scrum</li>
+  </ul></a>
+  </div>
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-6 " style=" top:-1px;height:150px;color:blue;background:pink"><strong>Benifits</strong>
+<div class="d" style="color:black">
+      <ul>
+        <li>set Goals</li>
+        <li>Receive Customized notification</li>
+        <li>Tips from experts</li>
+</ul>
+</div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-6" style="top:-1px;height:150px;background:lavender"><strong><a href="helloworld.html" style="color:blue;">Login</a></strong>
+  </div>
+  
+ 
+</div>
+    
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>
